@@ -1,0 +1,32 @@
+// sidebar
+$menuBgColor: #f5f6f7;
+$menuItemHoverBgColor: #ebebeb;
+$menuActiveTextColor: #409eff;
+
+$menuTextColor: #bfcbd9;
+
+$subMenuBgColor: #f7f8f9;
+
+$sidebarWidth: 210px;
+$hiddenSidebarWidth: 54px;
+
+// login page
+$loginColor_bg: #283443;
+$loginColor_lightGray: #eee;
+$loginColor_darkGray: #889aa4;
+$loginColor_cursor: #fff;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  // sidebarMenu_bgBaseColor: $menuBgColor;
+  sidebarMenu_bgBaseColor: '#dddddd';
+  sidebarMenu_bgHoverColor: '#ebebeb';
+  sidebarMenu_textBaseColor: '#bfcbd9';
+  sidebarMenu_textActiveColor: $menuActiveTextColor;
+  menuBgColor: $menuBgColor;
+  menuTextColor: $menuTextColor;
+  menuActiveTextColor: $menuActiveTextColor;
+  sidebarWidth: $sidebarWidth;
+  hiddenSidebarWidth: $hiddenSidebarWidth;
+}
